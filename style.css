@@ -105,3 +105,47 @@ a:hover {
     width: 100%;
   }
 }
+header{
+    margin-bottom:40px;
+}
+
+nav{
+    margin-top:25px;
+}
+
+nav a{
+    margin:10px;
+}
+
+section{
+    max-width:900px;
+    margin:50px auto;
+}
+
+.ranking{
+    list-style-position:inside;
+    max-width:400px;
+    margin:auto;
+    padding:0;
+}
+
+.ranking li{
+    background:#374151;
+    margin:12px 0;
+    padding:15px;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.ranking li:hover{
+    background:#2563eb;
+    transform:translateX(8px);
+}
+
+footer{
+    margin-top:60px;
+    color:#cbd5e1;
+    font-size:15px;
+    border-top:2px solid #374151;
+    padding-top:20px;
+}
