@@ -1,12 +1,14 @@
 
+// This button switches the website between dark mode and light mode
 
-// Get the button and paragraph from the HTML page
-const button = document.getElementById("favoriteBtn");
-const message = document.getElementById("favoriteHero");
+const themeButton = document.getElementById("themeBtn");
 
-button.addEventListener("click", function () {
-    message.textContent = "⭐ My favorite Overwatch hero is Tracer!";
-    message.style.color = "#f97316";
-    message.style.fontSize = "24px";
-    message.style.fontWeight = "bold";
+themeButton.addEventListener("click", function () {
+    document.body.classList.toggle("light-theme");
+
+    if (document.body.classList.contains("light-theme")) {
+        themeButton.textContent = "Switch to Dark Mode";
+    } else {
+        themeButton.textContent = "Switch to Light Mode";
+    }
 });
