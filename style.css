@@ -149,3 +149,46 @@ footer{
     border-top:2px solid #374151;
     padding-top:20px;
 }
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+}
+/* Light theme style */
+.light-theme {
+    background: linear-gradient(135deg, #e5e7eb, #ffffff);
+    color: #111827;
+}
+
+.light-theme h1 {
+    color: #2563eb;
+}
+
+.light-theme h2 {
+    color: #f97316;
+}
+
+.light-theme li {
+    background-color: #d1d5db;
+    color: #111827;
+}
+
+.light-theme a {
+    background-color: #2563eb;
+}
+
+.light-theme footer {
+    color: #374151;
+}
+
